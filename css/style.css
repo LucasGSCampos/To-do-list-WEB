@@ -28,7 +28,12 @@ body {
 }
 
 #barra a{
-    color: white;
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
     text-decoration: none;
+    color: white;
     font-family: sans-serif;
+    justify-content: center;
 }
