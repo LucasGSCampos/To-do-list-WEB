@@ -9,6 +9,7 @@ body {
     height: 100%;
     width: 15%;
     position: absolute;
+    border-radius: 0px 10px 10px 0px;
 }
 
 #me {
@@ -36,4 +37,13 @@ body {
     color: white;
     font-family: sans-serif;
     justify-content: center;
+    transition: 150ms;
+}
+
+#barra a:hover{
+    font-size: x-large;
+    border: solid white 2px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    transition: 150ms;
 }
